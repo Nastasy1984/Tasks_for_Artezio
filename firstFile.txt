@@ -12,3 +12,5 @@ At first the very worst of fortune’s might,
 
 And other strains of woe, which now seem woe,
 Compared with loss of thee will not seem so.
+
+Hello from last string!
