@@ -1,0 +1,110 @@
+*{
+    font-family: Helvetica, Verdana;
+    color: rgb(31, 51, 51);
+}
+div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+div#photo{
+    width: 200px; 
+    height: 200px; 
+    line-height: 100px; 
+    background-image: url(1.jpg);
+    border-radius: 50%;
+    text-align: center; 
+    color: white;
+}
+h1{
+    font-size: 50pt;
+    color: #2F4F4F;
+    font-weight: 500;
+}
+div.headLeft{
+    display: inline-block;
+    width: 30%;
+    padding-right: 50px;
+    padding-left: 50px;
+    width: 20%;
+
+}
+div.headRight{
+    display: inline-block;
+    width: 70%;
+}
+div#fio{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+div#position{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+div.contacts{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.flex-container1 {
+    background-image: url(2.png);
+    background-repeat: repeat;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color:white;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+}
+h1{
+    font-size: 30pt;
+    color: #2F4F4F;
+    font-weight: 500;
+}
+h2{
+    font-size: 20pt;
+    color: #2F4F4F;
+    font-weight: 500;
+}
+h3{
+    font-size: 16pt;
+    color: #2F4F4F;
+    font-weight: 500;
+}
+body{
+    background-color: rgb(192, 191, 196);
+}
+hr{
+    width:90%;
+}
+strong{
+    color: #2F4F4F;
+}
+.onePoint {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color:white;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+}
+.smallHead{
+    padding-right: 50px;
+    padding-left: 50px;
+    width: 20%;
+}
+.text{
+
+    width: 70%;
+}
+.about{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
