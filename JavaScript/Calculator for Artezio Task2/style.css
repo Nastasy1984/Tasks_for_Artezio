@@ -1,0 +1,89 @@
+div.layout{
+	background-image: url(123.png);
+	background-repeat: repeat;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Helvetica, Verdana;
+    color:  white;
+    padding: 10px;
+}
+div.docName{
+    text-align: center;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 25px;
+}
+#inputsField{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 25px;
+	font-size: 17pt;
+}
+h1{
+    font-size: 20pt;
+    font-weight: 600;
+}
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-around;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-left: auto;
+}
+.flex-container2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-around;
+    width: 35%;
+    margin-right: auto;
+    margin-left: auto;
+}
+input{
+    height: 40px;
+    font-size: 15pt;
+    font-weight: 600;
+    border-radius: 4px;
+    /*width: 200px;*/
+    margin-top: 10px;
+}
+#radio{
+    font-size: 13pt;
+}
+#result{
+    text-align: center;
+	background: rgba(255, 255, 255, 0.55);
+    width: 70%;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    padding: 25px;
+	font-size: 15pt;
+    color: #2F4F4F;
+    border-radius: 4px;
+
+}
+.btn{
+    text-align: center;
+    padding: 5px;
+    border-radius: 4px;
+    background: none;
+    text-decoration: none;
+    width: 150px;
+    height: 50px;
+    font-size: 15pt;
+    font-weight: 600;
+    border: 3px solid white;
+    margin: 5px;
+    color:  white;
+}
+.btn:hover {
+    background-color:#089297;
+    border-color: #089297;
+}

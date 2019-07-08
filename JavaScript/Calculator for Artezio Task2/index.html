@@ -1,0 +1,47 @@
+    
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="script.js"></script>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <title>Задание 2 по JS, стажировка Артезио </title>
+    </head>
+    <body>  
+        <div class="layout">  
+            <div class="docName">
+                <h1> Задание № 2 по JS для стажировки Артезио</h1>
+            </div> 
+            <div id="inputsField">
+                <div class="flex-container">
+                    <div class="inputs">
+                        X1: <input type="text" id="x1"></br>
+                        X2: <input type="text" id="x2"></br>
+                    </div>
+                    <div id="radio">
+                        <input type="radio" name="choice" value="sum" id="radioSum" checked> 
+                        <label for="radioMult"></label>Сумма всех чисел от X1 до X2</label>
+                        <hr>
+                        <input type="radio" name="choice" value="mult" id="radioMult"> 
+                        <label for="radioMult"></label>Произведение всех чисел от X1 до X2</label>
+                        <hr>
+                        <input type="radio" name="choice" value="prime" id="radioMult"> 
+                        <label for="radioMult"></label>Все простые числа от X1 до X2</label>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-container2">
+                <div class="buttons">
+                    <input class="btn" type="button" value="RUN" onclick="btnRun()">
+                </div>
+                <div class="buttons">
+                    <input class="btn" type="button" value="CLEAR" onclick="btnClear()">
+                </div>
+            </div>
+            <div id="result">
+                Здесь будет результат
+            </div>
+        </div>
+    </body>
+</html>
