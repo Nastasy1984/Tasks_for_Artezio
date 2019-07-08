@@ -1,6 +1,3 @@
-//const x1 = document.getElementById('x1');
-//const x2 = document.getElementById('x2');
-
 
 function btnRun(){
     let x1 = document.getElementById('x1').value;
@@ -45,7 +42,6 @@ function btnRun(){
                 mult *= i;
             }
             result.value = mult;
-            //result.innerText = ("Произведение всех чисел от " + x1 + " до " + x2 + " = " + result.value);
             if ((result.value > 1000000000000000)|| (result.value < -1000000000000000)){
                 result.innerText = ("Произведение всех чисел от " + x1 + " до " + x2 + " = " + "слишком длинное число");
             }
@@ -66,16 +62,6 @@ function btnRun(){
 function btnClear(){
     document.getElementById('x1').value = "";
     document.getElementById('x2').value = "";
-}
-
-function checkRadio(name)
-{
-    let arrRadio = document.getElementsByName(name);
-    for (var i = 0; i < arrRadio.length; i++) {
-        if (arrRadio[i].type == "radio" && arrRadio[i].checked) {
-            alert("selected: " + inp[i].value);
-        }
-    }
 }
 
 //Реализуйте алгоритм нахождения простых чисел в промежутке от X1 до X2. 
@@ -107,8 +93,6 @@ function getAllSimple(min, max){
     }
     return strNo;
 }
-
-
 
 
 //функция для проверки 1 числа, простое ли оно
