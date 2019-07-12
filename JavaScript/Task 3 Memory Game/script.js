@@ -1,7 +1,3 @@
-//В качестве комментария: JS я знаю средне (хочу стажироваться по JAVA), поэтому
-//в плане стиля наверняка можно было написать лучше, просто сделала на базе своих 
-//знаний и логики, чтобы более или менее корректно работало у пользователя
-
 const start = document.getElementById("start");
 const gameArea = document.getElementById("gameArea");
 const arrDivs = document.getElementsByClassName("card");
@@ -125,14 +121,10 @@ function onClickDiv(n){
         {
             //делаем обе карты невидимыми на экране с небольшой задержкой
             arrCards[n].div.innerHTML = "";
-            //cardPrev.div.innerHTML = "";
             tmp1.div.innerHTML = "";
             //устанавливаем маркер исчезновения на обе карты
             arrCards[n].dissapeared = true;
-            //cardPrev.dissapeared = true;
             tmp1.dissapeared = true;
-            //обнуляем cardPrev
-            //cardPrev = null;
             tmp1 = null;
             //добавляем к переменной для подсчета исчезнувших карт 2 
             countDissapeared += 2;
