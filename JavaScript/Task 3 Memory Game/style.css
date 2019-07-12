@@ -1,0 +1,79 @@
+*{
+    font-family: Helvetica, Verdana;
+    color: #38200de1;
+}
+#name{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+body{
+    background-image: url(fon1.png);
+    background-repeat: repeat;
+}
+h1{
+    font-size: 30pt;
+    font-weight: 500;
+    text-align: center; 
+}
+.layout {
+    background-color: #ebe9dc;
+    width: 950px; 
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#gameArea{
+    margin-right: auto;
+    margin-left: auto;
+    width: 910px; 
+}
+#winText{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    width: 910px;
+    color: #ef3214; 
+    font-size: 20pt;
+    font-weight: 500;
+    text-align: center; 
+    
+}
+.card {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+
+}
+.btn{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    width: 150px;
+}
+button{
+    text-align: center;
+    padding: 4px;
+    font-size: 18pt;
+    border-radius: 5px;
+    border-color: #ef3214;
+    background: none;
+    text-decoration: none;
+    width: 100%;
+    font-weight: 600;
+    color: #ef3214;
+    height: 50px;
+}
+button:hover {
+    background-color: #ef3214;
+    color: #ebe9dc;
+    cursor: pointer;
+}
+div.footer{
+    padding: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 10pt;
+}
