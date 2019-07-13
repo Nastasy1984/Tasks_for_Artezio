@@ -20,7 +20,6 @@ class Card {
         this.id = id;
         this.dissapeared = false;
         this.div = null;
-        //this.div = div;
     }
 }
 
@@ -78,7 +77,7 @@ function shakeArr(arr){
 	for (let i = 0; i < arr.length; i++)
 	{
 		let j =  randomInteger(arr.length - 1);//случайное число в рамках массива
-		let t = arr[i];//временной переменной присваиваем последовательно i - тое значение
+		let t = arr[i];//временной переменной присваиваем i - тое значение
 		arr[i] = arr[j];//i-той переменной присваиваем значение переменной на j-той позиции
 		arr[j] = t;//j той переменной присваиваем бывшее значение i-той
     }
@@ -105,6 +104,11 @@ function onClickDiv(n){
         arrCards[n].div.innerHTML = arrCards[n].picture;
         //присваиваем значение дива переменной для хранения первой из пары выбранных карт
         cardPrev = arrCards[n];
+        return;
+    }
+
+    //еще одна "защита от дурака" - если пользователь нажал на ту же карту
+    if (arrCards[n] === cardPrev){
         return;
     }
 
