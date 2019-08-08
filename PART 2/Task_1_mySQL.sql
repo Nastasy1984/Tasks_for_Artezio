@@ -70,7 +70,7 @@ DELETE FROM departments WHERE dep = 'logistic';
 /* Selecting all departments without employees */
 SELECT dep
 FROM departments
-WHERE dep_id IN (
+WHERE dep_id NOT IN (
 SELECT dep_id FROM employees);
 
 /* Deleting the director department with setting null in employees table for this employee */

@@ -1,0 +1,136 @@
+.footer{
+    position: absolute;
+    bottom: 0;
+}
+
+.username{
+    width: 100px;
+    margin: 10px;
+}
+
+.text{
+    width: 300px;
+    margin: 10px;
+}
+
+.messagesArea{
+    overflow-y:scroll;
+    height:600px;
+    width: 600px;
+}
+
+.chat_container{
+    position: relative;
+    height: 640px;
+}
+body{
+    background-color: rgb(179, 250, 217);
+}
+div.layout{
+	background-image: url(1.png);
+	background-repeat: repeat;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Helvetica, Verdana;
+    color:  white;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+div.docName{
+    text-align: center;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 25px;
+}
+.inputs{
+    width: 40%;
+    padding: 25px;
+	font-size: 12pt;
+}
+h1{
+    font-size: 20pt;
+    font-weight: 600;
+}
+h2{
+    text-align: center;
+    font-size: 16pt;
+    font-weight: 600;
+}
+.flex-container {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-around;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-left: auto;
+    padding-bottom: 30px;
+}
+#btn{
+    margin-left: auto;
+    margin-right: auto; 
+}
+#enter{
+    text-align: center;
+    padding: 5px;
+    border-radius: 4px;
+    background: none;
+    text-decoration: none;
+    width: 150px;
+    height: 50px;
+    font-size: 15pt;
+    font-weight: 600;
+    border: 3px solid white;
+    color:  white;
+    margin-top: 20px;
+}
+#enter:hover {
+    background-color:white;
+    border-color: white;
+    color:  #297d4e;
+}
+table{
+    color: grey;
+    font-size: 10pt;
+    font-weight: 200;
+    width: 40%;
+    border: 1px;
+    border-style: solid;
+    padding: 5px;
+    border-color: #297d4e;
+    border-collapse: collapse;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 30px;
+}
+thead{
+    color:#297d4e;
+}
+th, td {
+    border: 1px solid #297d4e;
+    padding: 10px;
+}
+hr{
+    margin: 5px;
+}
+input{
+    height: 40px;
+    font-size: 15pt;
+    font-weight: 600;
+    border-radius: 4px;
+    margin-top: 0px;
+}
+label{
+    margin-bottom: 5px;
+}
+#pict{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+img{
+    margin: 10px;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Chat</title>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue-resource@1.5.1"></script>
+</head>
+<body>
+    <div class="layout">
+        <div class="content">
+            <div class="docName">
+                <img src ="2.png" alt="chat Picture" width = "50" height = "50">
+                <h1>The Chat</h1>
+            </div>
+            <div class="form">
+                <div class="flex-container">
+                    <div class="inputs">
+                        <p>
+                            <label for="login">Login: </label>
+                        </p>  
+                        <p>  
+                            <input id="login" type="text" name="login"/>
+                        </p>
+                        <p>
+                            <label for="password">Password: </label>
+                        </p>
+                        <p>
+                            <input id="password" type="password" name="password"/>
+                        </p>
+                        <p>
+                            <button id="enter" type="submit">Start</button>
+                        </p>
+                    </div>
+                    <div id="radio">
+                        <p>
+                        Ваш возраст:
+                        </p>
+                        <input type="radio" name="choice" value="age" id="radioAge" checked> 
+                        <label for="radioMult"></label>До 16 лет</label>
+                        <hr>
+                        <input type="radio" name="choice" value="age" id="radioAge" checked> 
+                        <label for="radioMult"></label>От 16 до 18 лет</label>
+                        <hr>
+                        <input type="radio" name="choice" value="age" id="radioAge" checked> 
+                        <label for="radioMult"></label>От 18 лет</label>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div>
+                <h2>Users</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                Login
+                            </th>
+                            <th>
+                                Amount of messages
+                            </th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <th>
+                            Vasya
+                        </th>
+                        <th>
+                            5
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            Kolya
+                        </th>
+                        <th>
+                            10
+                        </th>
+                    </tr>
+                    <tr>
+                            <th>
+                                Dima
+                            </th>
+                            <th>
+                                15
+                            </th>
+                        </tr>
+                </table>
+                <hr>
+            </div>
+        </div>
+    </div>    
+<div id="app"></div>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<script src="/js/main.js"></script>
+</body>
+</html>
